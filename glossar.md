@@ -6,7 +6,7 @@
 
 Auszeichnungssprache zur Darstellung hierarchisch strukturierter Daten im Format einer Textdatei, die sowohl von Menschen als auch von Maschinen lesbar ist. Besteht aus Elementen, die entweder Text oder weitere Elemente enthalten (Baumstruktur). Diese werden durch verschiedene *Tags* markiert:
 
--  ein Starttag für den Beginn eines Elementes: `<Elementname>`
+- ein Starttag für den Beginn eines Elementes: `<Elementname>`
 - ein Endtag für das Ende eines Elementes: `</Elementname>`
 - ein Leertag für ein Element ohne Inhalt: `<Elementname/>`
 
@@ -43,6 +43,7 @@ Sprache zur Adressierung einzelner Teile eines [XML](#xml)-Dokuments. XPath besc
 
 "Forschungsdaten sind durch eine spezifische Methode und Schritte der Operationalisierung systematisch gewonnene, strukturierte Informationen, die (computergestützt) ausgewertet und verarbeitet werden können. Sie bilden die Grundlage des Forschungsprozesses. Daten können sowohl quantitativen wie qualitativen Charakter tragen. In den Geschichtswissenschaften sind Forschungsdaten häufig (die Nennung bleibt beispielhaft):
 - Texte, Transkriptionen, edierte Texte bis hin zu Textsammlungen und Corpora mit oder ohne Annotationen
-- qualitative und quantitative empirisch erhobene Rohdaten, bereinigte Daten, verschnittene oder aggregierte Daten, Analysedaten
+- qualitative und quantitative empirisch erhobene Rohdaten, **bereinigte Daten**, **verschnittene oder aggregierte Daten**, Analysedaten
 - komplexere Hypertexte, webbasierte Textsammlungen
 - Historische Informationssysteme bzw. Historische Geo-Informationssysteme" (Quelle: Historisches Datenzentrum Sachsen-Anhalt, Serviceabteilung Digital Humanities und Digital History; Link: https://www.geschichte.uni-halle.de/struktur/hist-data/datenmanagement/)
+  --> SoNAR-Netzwerkdaten können als bereinigte Daten, als verschnittene Daten und als aggregierte Daten verstanden werden.
