@@ -39,11 +39,17 @@ Sprache zur Transformation von [XML](#xml)-Dokumenten in andere Formate. Eine XS
 
 Sprache zur Adressierung einzelner Teile eines [XML](#xml)-Dokuments. XPath beschreibt einen Pfad durch die Baumstruktur des Dokuments und wählt damit bestimmte Elemente, Attribute oder Textinhalte aus. Diese Angabe ist vergleichbar mit einer Pfadangabe in einem Dateisystem. Ein Ausdruck wie `/mods:mods/mods:titleInfo/mods:title` adressiert beispielsweise das `title`-Element innerhalb von `titleInfo` innerhalb des Wurzelelements `mods`. XPath wird unter anderem von [XSLT](#xsl-transformation-xslt) und vielen weiteren XML-Werkzeugen zur Selektion verwendet.
 
-## Forschungsdaten/ SoNAR-Forschungsdaten
+## Datenverständnis aus der Perspektive von Forschenden
 
+### Forschungsdaten
 "Forschungsdaten sind durch eine spezifische Methode und Schritte der Operationalisierung systematisch gewonnene, strukturierte Informationen, die (computergestützt) ausgewertet und verarbeitet werden können. Sie bilden die Grundlage des Forschungsprozesses. Daten können sowohl quantitativen wie qualitativen Charakter tragen. In den Geschichtswissenschaften sind Forschungsdaten häufig (die Nennung bleibt beispielhaft):
 - Texte, Transkriptionen, edierte Texte bis hin zu Textsammlungen und Corpora mit oder ohne Annotationen
 - qualitative und quantitative empirisch erhobene Rohdaten, **bereinigte Daten**, **verschnittene oder aggregierte Daten**, Analysedaten
 - komplexere Hypertexte, webbasierte Textsammlungen
-- Historische Informationssysteme bzw. Historische Geo-Informationssysteme" (Quelle: Historisches Datenzentrum Sachsen-Anhalt, Serviceabteilung Digital Humanities und Digital History; Link: https://www.geschichte.uni-halle.de/struktur/hist-data/datenmanagement/)
-  --> SoNAR-Netzwerkdaten können als bereinigte Daten, als verschnittene Daten und als aggregierte Daten verstanden werden.
+- Historische Informationssysteme bzw. Historische Geo-Informationssysteme"
+(Quelle: Historisches Datenzentrum Sachsen-Anhalt, Serviceabteilung Digital Humanities und Digital History; Link: https://www.geschichte.uni-halle.de/struktur/hist-data/datenmanagement/)
+--> SoNAR-Netzwerkdaten können als bereinigte Daten, als verschnittene Daten und als aggregierte Daten verstanden werden.
+
+### Datensammlung
+"Forschung in den digitalen Geisteswissenschaften ist in der Regel datenbasiert, insofern in der Regel eine digitale Repräsentation der Untersuchungsgegenstände vorliegt, die mit Hilfe des Computers bearbeitet, analysiert und/oder verbreitet werden kann. Zudem wird meist nicht nur ein einzelnes Beispiel, sondern eine Gruppe von Gegenständen untersucht, d. h. mit einer Datensammlung gearbeitet. Als **Datensammlung** gilt in diesem Zusammenhang **jede Zusammenführung einzelner (bereits existierender oder eigens erstellter) Datensätze nach einer Einheit stiftenden Systematik**. Der Begriff der Datensammlung wird hier als Überbegriff und in Abgrenzung zum spezifscheren Begriff des **Korpus** verwendet, mit dem in der Regel digitale Sammlungen von Text oder gesprochener Sprache bezeichnet werden, die linguistisch annotiert wurden sowie (in vielen Fällen) für eine bestimmte Domäne repräsentativ sind und somit als Referenz fungieren können (vgl. McEnery/Wilson 2001, Kap. 2). **Digitale Editionen** hingegen sind im Vergleich zu Datensammlungen meist weniger umfangreich oder zumindest inhaltlich enger defniert, leisten aber eine detailliertere Erschließung von Struktur und Inhalt der Daten, als dies bei einer Datensammlung der Fall ist (s. Kap. 17 zu »Digitale Editionen«). Schließlich ist der Begriff der Datensammlung nicht mit dem der Datenbank zu verwechseln, die allerdings eine mögliche technische Umsetzungsform von Datensammlungen darstellt (s. Kap. 8 zu »Datenbanken«)."
+Quelle: Monografie (2017): Digital-Humanities-Eine-Einfuehrung_Jannidis-Kohle-Rehbein, S. 219
